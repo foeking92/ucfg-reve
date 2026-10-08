@@ -1,0 +1,80 @@
+basic_info:
+    filename: 1450_RevE_JY_19M2_1V8HVCMOSP_UCFG
+    pn: RevE_JY_19M2_1V8HVCMOSP
+    cfgid: 1450
+
+specification:
+    package: 3225
+    freq: 19200000
+    xtal: 38400000
+    odiv: 2
+    vdd: 1.8
+    driver: HVCMOS_CLKP
+    temp_range: -40~105
+    init_tol: 2
+    temp_stab: 4
+    oe_pin: 0
+    active_high: 1
+
+func:
+    vref: 1.00
+    
+xtal:
+    freq_target: 38400000
+    cdac_norm: 0.5
+    itrim: 0.0015
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+
+icfg: 1420_RevE_JY_19M2_1V8HVCMOSP_ICFG
+    
+comp:
+    freq_target: 38400000
+    vdd: 1.8
+    temp_low: -45
+    temp_high: 110
+    search_bit: 12
+    iload: 0
+    str_adj: 0
+
+poly:
+    order: 6
+    pwl: 0
+
+meas:
+    freq_target: 38400000
+    vdd: 1.8
+    temp_low: -45
+    temp_high: 110
+    tol_limit: 1.8
+    stab_limit: 3.6
+    iload: 0
+    str_adj: 0
+
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        current: 1450
+    drvhv:
+        enabled: True                   
+        oe:                             
+            val: True                   
+            pin:
+                enabled: True           
+                active_high: True       
+                pull_high: True
+                pull_low: False
+                sel: 0                  
+        div:
+            option0: 2                  
+        mode:
+            option0:
+                diff: OFF        
+                cmos:
+                    out0:
+                        enabled: True   
+                        inv: False      
+                    out1:
+                        enabled: False 
+                        inv: False      

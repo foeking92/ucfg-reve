@@ -1,0 +1,74 @@
+basic_info:
+    filename: 1451_RevE_JY_50M_3V3HVCMOSP_UCFG
+    pn: RevE_JY_50M_3V3HVCMOSP
+    cfgid: 1451
+
+specification:
+    package: 3225
+    freq: 50000000
+    xtal: 50000000
+    odiv: 1
+    vdd: 3.3
+    driver: HVCMOS_CLKP
+    temp_range: -40~90
+    init_tol: 1
+    temp_stab: 1
+    oe_pin: /
+    active_high: /
+
+func:
+    vref: 1.00
+    
+xtal:
+    freq_target: 50000000
+    cdac_norm: 0.5
+    itrim: 0.0025
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+
+icfg: 1421_RevE_JY_50M_3V3HVCMOSP_ICFG
+    
+comp:
+    freq_target: 50000000
+    vdd: 3.3
+    temp_low: -45
+    temp_high: 90
+    search_bit: 10
+    iload: 0
+    str_adj: 0
+
+poly:
+    order: 6
+    pwl: 0
+
+meas:
+    freq_target: 50000000
+    vdd: 3.3
+    temp_low: -45
+    temp_high: 90
+    tol_limit: 0.9
+    stab_limit: 0.9
+    iload: 0
+    str_adj: 0
+
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        current: 1451
+    drvhv:
+        enabled: True                   
+        oe:                             
+            val: True                            
+        div:
+            option0: 1                  
+        mode:
+            option0:
+                diff: OFF        
+                cmos:
+                    out0:
+                        enabled: True   
+                        inv: False      
+                    out1:
+                        enabled: False 
+                        inv: False      

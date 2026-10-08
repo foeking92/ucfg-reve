@@ -1,0 +1,42 @@
+opn:
+    factory: 1421
+autostart: True
+temp_comp: True
+drvhv:
+    enabled: True
+    oe:
+        val: True
+    div:
+        option0: 1
+    mode:
+        option0:
+            cmos:
+                out1:
+                    enabled: True
+                # ro: 35
+drvlva:
+    enabled: True
+    oe:
+        val: True
+    vreg: 1.2
+    div:
+        option0: 2
+    out0:
+        enabled: True
+        # ro: 35
+    out1:
+        enabled: True
+        # ro: 35
+drvlvb:
+    enabled: True
+    oe:
+        val: True
+    vreg: 1.2
+    div:
+        option0: 2
+    out0:
+        enabled: True
+        # ro: 35
+    out1:
+        enabled: True
+        # ro: 35
