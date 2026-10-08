@@ -27,6 +27,9 @@ xtal:
     vpp_xb: 0.4
 
 icfg: 1420_RevE_JY_19M2_1V8HVCMOSP_ICFG
+customer_current: 4.37
+ucfg_current: 4.5
+icfg_search: 4.46
     
 comp:
     freq_target: 38400000
