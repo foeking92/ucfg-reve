@@ -1,7 +1,9 @@
 basic_info:
-    filename: 1451_RevE_JY_50M_3V3HVCMOSP_UCFG
+    filename: 1361_RevE_JY_50M_3V3HVCMOSP_UCFG
     pn: RevE_JY_50M_3V3HVCMOSP
-    cfgid: 1451
+    cfgid: 1361
+    crystal_manufacture: JY
+    crystal_type: Blank
 
 specification:
     package: 3225
@@ -26,7 +28,7 @@ xtal:
     vpp_xa: 0.8
     vpp_xb: 0.4
 
-icfg: 1421_RevE_JY_50M_3V3HVCMOSP_ICFG
+icfg: 1331_RevE_JY_50M_3V3HVCMOSP_ICFG
 customer_current: 8.67
 ucfg_current: 9.75
 icfg_search: 8.7
@@ -37,7 +39,6 @@ comp:
     temp_low: -45
     temp_high: 90
     search_bit: 10
-    iload: 0
     str_adj: 0
 
 poly:
@@ -51,14 +52,13 @@ meas:
     temp_high: 90
     tol_limit: 0.9
     stab_limit: 0.9
-    iload: 0
     str_adj: 0
 
 ucfg:
     autostart: True
     temp_comp: True
     opn:
-        current: 1451
+        current: 1361
     drvhv:
         enabled: True                   
         oe:                             

@@ -1,0 +1,13 @@
+opn:
+    factory: 1332
+autostart: True
+temp_comp: True
+drvhv:
+    enabled: True
+    oe:
+        val: True
+    div:
+        option0: 1
+    mode:
+        option0:
+            diff: LVPECL_AC

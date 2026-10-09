@@ -1,7 +1,9 @@
 basic_info:
-    filename: 1450_RevE_JY_19M2_1V8HVCMOSP_UCFG
+    filename: 1360_RevE_JY_19M2_1V8HVCMOSP_UCFG
     pn: RevE_JY_19M2_1V8HVCMOSP
-    cfgid: 1450
+    cfgid: 1360
+    crystal_manufacture: JY
+    crystal_type: Blank
 
 specification:
     package: 3225
@@ -26,7 +28,7 @@ xtal:
     vpp_xa: 0.8
     vpp_xb: 0.4
 
-icfg: 1420_RevE_JY_19M2_1V8HVCMOSP_ICFG
+icfg: 1330_RevE_JY_19M2_1V8HVCMOSP_ICFG
 customer_current: 4.37
 ucfg_current: 4.5
 icfg_search: 4.46
@@ -36,8 +38,7 @@ comp:
     vdd: 1.8
     temp_low: -45
     temp_high: 110
-    search_bit: 12
-    iload: 0
+    search_bit: 10
     str_adj: 0
 
 poly:
@@ -51,14 +52,13 @@ meas:
     temp_high: 110
     tol_limit: 1.8
     stab_limit: 3.6
-    iload: 0
     str_adj: 0
 
 ucfg:
     autostart: True
     temp_comp: True
     opn:
-        current: 1450
+        current: 1360
     drvhv:
         enabled: True                   
         oe:                             
