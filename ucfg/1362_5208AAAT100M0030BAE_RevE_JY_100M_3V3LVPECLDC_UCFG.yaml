@@ -1,8 +1,8 @@
 basic_info:
-    filename: 1362_RevE_JY_100M_3V3LVPECLDC_UCFG
-    pn: RevE_JY_100M_3V3LVPECLDC
+    pn: 5208AAAT100M0030BAE
+    description: RevE_JY_100M_3V3LVPECLDC_UCFG
     cfgid: 1362
-    crystal_manufacture: Jingyuan
+    crystal_manufacture: JY
     crystal_type: Blank
 
 specification:

@@ -1,6 +1,6 @@
 basic_info:
-    filename: 1361_RevE_JY_50M_3V3HVCMOSP_UCFG
-    pn: RevE_JY_50M_3V3HVCMOSP
+    pn: 5208NAEP50M00000BAI
+    description: RevE_JY_50M_3V3HVCMOSP_UCFG
     cfgid: 1361
     crystal_manufacture: JY
     crystal_type: Blank
