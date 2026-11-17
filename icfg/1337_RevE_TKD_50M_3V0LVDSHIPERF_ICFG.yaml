@@ -1,0 +1,13 @@
+opn:
+    factory: 1337
+autostart: True
+temp_comp: True
+drvhv:
+    enabled: True
+    oe:
+        val: True
+    div:
+        option0: 2
+    mode:
+        option0:
+            diff: DIFF_TERM_1V2_7mA

@@ -1,0 +1,15 @@
+opn:
+    factory: 1335
+autostart: True
+temp_comp: True
+drvhv:
+    enabled: True
+    oe:
+        val: True
+    div:
+        option0: 14
+    mode:
+        option0:
+            cmos:
+                out1:
+                    enabled: True

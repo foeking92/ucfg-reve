@@ -20,7 +20,7 @@ specification:
 
 func:
     vref: 1.00
-    
+
 xtal:
     freq_target: 38400000
     cdac_norm: 0.5
@@ -31,8 +31,10 @@ xtal:
 icfg: 1330_RevE_JY_19M2_1V8HVCMOSP_ICFG
 customer_current: 4.37
 ucfg_current: 4.5
-icfg_search: 4.46
-    
+icfg_settle_search: 4.46
+icfg_bintrim_search: TODO (For improvement if needed)
+icfg_ftmeas: TODO (For improvement if needed)
+
 comp:
     freq_target: 38400000
     vdd: 1.8
@@ -60,24 +62,24 @@ ucfg:
     opn:
         current: 1360
     drvhv:
-        enabled: True                   
-        oe:                             
-            val: True                   
+        enabled: True
+        oe:
+            val: True
             pin:
-                enabled: True           
-                active_high: True       
+                enabled: True
+                active_high: True
                 pull_high: True
                 pull_low: False
-                sel: 0                  
+                sel: 0
         div:
-            option0: 2                  
+            option0: 2
         mode:
             option0:
-                diff: OFF        
+                diff: OFF
                 cmos:
                     out0:
-                        enabled: True   
-                        inv: False      
+                        enabled: True
+                        inv: False
                     out1:
-                        enabled: False 
-                        inv: False      
+                        enabled: False
+                        inv: False

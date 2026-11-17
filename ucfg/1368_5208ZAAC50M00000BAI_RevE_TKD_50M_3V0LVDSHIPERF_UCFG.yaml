@@ -1,0 +1,85 @@
+basic_info:
+    pn: 5208ZAAC50M00000BAI
+    description: RevE_TKD_50M_3V0LVDSHIPERF_UCFG
+    cfgid: 1368
+    crystal_manufacture: TKD
+    crystal_type: Blank
+
+specification:
+    package: 3225
+    freq: 50000000
+    xtal: 50000000
+    odiv: 1
+    vdd: 3
+    driver: LVDS_1P2_HIPERF
+    temp_range: -40~85
+    init_tol: 0.5
+    temp_stab: 0.5
+    oe_pin: 0
+    active_high: 1
+
+func:
+    vref: 1.00
+
+xtal:
+    freq_target: 50000000
+    cdac_norm: 0.5
+    itrim: 0.0025
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+
+icfg: 1338_RevE_TKD_50M_3V3LVDSHIPERF_ICFG
+customer_current: /
+ucfg_current: 13.527
+icfg_settle_search: 13.605
+icfg_bintrim_search: 14.738
+icfg_ftmeas: 13.646
+
+comp:
+    freq_target: 50000000
+    vdd: 3
+    temp_low: -45
+    temp_high: 90
+    search_bit: 12
+    str_adj: 0
+
+poly:
+    order: 6
+    pwl: True
+
+meas:
+    freq_target: 50000000
+    vdd: 3
+    temp_low: -45
+    temp_high: 90
+    tol_limit: 0.4
+    stab_limit: 0.4
+    str_adj: 0
+
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        current: 1368
+    drvhv:
+        enabled: True
+        oe:
+            val: True
+            pin:
+                enabled: True
+                active_high: True
+                pull_high: True
+                pull_low: False
+                sel: 0
+        div:
+            option0: 1
+        mode:
+            option0:
+                diff: LVDS_1P2_HIPERF
+                cmos:
+                    out0:
+                        enabled: False
+                        inv: False
+                    out1:
+                        enabled: False
+                        inv: False

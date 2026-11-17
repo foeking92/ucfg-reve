@@ -31,7 +31,9 @@ xtal:
 icfg: 1332_RevE_JY_100M_3V3LVPECLDC_ICFG
 customer_current: /
 ucfg_current: /
-icfg_search: /
+icfg_settle_search: /
+icfg_bintrim_search: /
+icfg_ftmeas: /
 
 comp:
     freq_target: 100002900
